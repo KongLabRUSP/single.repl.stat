@@ -25,6 +25,8 @@ require(ggplot2)
 require(oligo)
 require(hugene20sttranscriptcluster.db)
 require(affycoretools)
+require(limma)
+# require(edgeR)
 # require(DNAMR) # Javier's package
 
 # Part I: Data----
@@ -41,7 +43,7 @@ l1
 
 # Annotation
 l1@annotation
-?pd.mogene.1.1.st.v1
+# ?pd.mogene.1.1.st.v1
 
 # Sample names
 sampleNames(l1) <- c("DBDB 1",
