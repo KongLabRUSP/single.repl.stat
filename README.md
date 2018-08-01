@@ -6,6 +6,9 @@
 ---
 
 ## Daily Logs
+### 07/23/2018
+* 
+
 ### 01/13/2018
 * Split from lncap repository.    
 
